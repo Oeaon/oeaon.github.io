@@ -279,7 +279,7 @@ tr:last-child td { border-bottom: 0; }
 @media (max-width: 860px) {
   .doc-layout { grid-template-columns: minmax(0, 1fr); }
   .toc { display: none; }
-  .features { grid-template-columns: 1fr; }
+  .features { grid-template-columns: minmax(0, 1fr); }
 }
 
 @media (max-width: 560px) {
@@ -287,4 +287,29 @@ tr:last-child td { border-bottom: 0; }
   .app-card { grid-template-columns: 1fr; text-align: left; }
   .app-card img { width: 88px; height: 88px; border-radius: 22px; }
   .nav { gap: 14px; }
+}
+
+.app-hero-icon { width: 128px; height: 128px; border-radius: 30px; box-shadow: var(--shadow); display: block; margin: 0 auto; }
+.actions-center { justify-content: center; margin-top: 28px; }
+.section-lead { color: var(--muted); margin: -12px 0 24px; }
+
+.faq { display: grid; gap: 12px; }
+.faq details {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 16px 20px;
+}
+.faq summary { cursor: pointer; font-weight: 700; }
+.faq details p { margin: 10px 0 0; color: var(--muted); }
+.support-note { margin-top: 24px; color: var(--muted); }
+
+.plain-link { color: inherit; }
+.plain-link:hover { color: var(--primary); text-decoration: none; }
+
+.site-header .container { gap: 16px; }
+
+@media (max-width: 420px) {
+  .brand-name { display: none; }
+  .nav { font-size: 14px; }
 }

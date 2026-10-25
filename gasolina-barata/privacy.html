@@ -51,6 +51,7 @@
             <li><a href="#es-location">Ubicación</a></li>
             <li><a href="#es-prices">Precios de los carburantes</a></li>
             <li><a href="#es-third">Servicios de terceros</a></li>
+            <li><a href="#es-purchases">Compras</a></li>
             <li><a href="#es-purposes">Finalidades y base legal</a></li>
             <li><a href="#es-permissions">Permisos de la app</a></li>
             <li><a href="#es-consent">Consentimiento y anuncios</a></li>
@@ -72,6 +73,7 @@
               <li>Si das permiso, tu ubicación se usa <strong>solo en el móvil</strong> para calcular distancias: no se envía a ningún servidor ni se guarda.</li>
               <li>Los precios se descargan del servicio público del Ministerio sin enviar tu ubicación.</li>
               <li>La app muestra anuncios de Google AdMob y de socios publicitarios que pujan a través de AdMob. La publicidad personalizada solo se usa si das tu consentimiento.</li>
+              <li>Las compras de Premium se procesan en Google Play: no recibimos tus datos de pago.</li>
               <li>No vendemos tus datos personales.</li>
             </ul>
           </section>
@@ -82,8 +84,10 @@
           <h2 id="es-local-data">2. Datos que se guardan en tu dispositivo</h2>
           <p>Para funcionar, Gasolina Barata guarda en el almacenamiento interno de tu dispositivo:</p>
           <ul>
-          <li>Tus ajustes: carburante, radio de búsqueda, orden y capacidad del depósito.</li>
+          <li>Tus ajustes: carburante, radio de búsqueda, orden, capacidad del depósito y datos de la calculadora de viajes.</li>
           <li>La última lista de precios descargada, para usarla sin conexión.</li>
+          <li>Si tienes Premium activo o un desbloqueo de 24 horas para la calculadora del coste de un viaje.</li>
+          <li>La hora del último anuncio a pantalla completa, para limitar su frecuencia.</li>
           </ul>
           <p>Estos datos <strong>no salen de tu dispositivo</strong> y Oeaon no tiene acceso a ellos. Si tienes activada la copia de seguridad de Android, el sistema puede incluirlos en la copia cifrada de tu cuenta de Google, bajo tu control y según la política de privacidad de Google.</p>
 
@@ -104,10 +108,12 @@
           <tbody>
           <tr><td><strong>Google AdMob</strong></td><td>ID de publicidad de Android, dirección IP (ubicación aproximada), modelo y sistema del dispositivo, idioma, interacciones con anuncios y datos de diagnóstico.</td><td>Mostrar anuncios, medir su rendimiento, limitar la frecuencia y prevenir el fraude. Personalizar anuncios solo con tu consentimiento.</td></tr>
           <tr><td><strong>Google User Messaging Platform</strong></td><td>Tus elecciones de consentimiento, guardadas en el dispositivo.</td><td>Pedir y recordar tu consentimiento conforme al RGPD y otras normas de privacidad.</td></tr>
+          <tr><td><strong>Google Play Billing</strong></td><td>Producto comprado, estado de la compra o suscripción y token de compra. Los datos de pago los trata solo Google.</td><td>Procesar las compras de Premium y comprobar que siguen activas.</td></tr>
           </tbody>
           </table>
           </div>
           <p>Más información: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de privacidad de Google</a> y <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">cómo usa Google los datos de las apps que usan sus servicios</a>.</p>
+          <p>La app muestra banners, anuncios intersticiales solo en pausas naturales, anuncios al volver a la app y anuncios recompensados que tú eliges ver para desbloquear la calculadora del coste de un viaje.</p>
           <h3>Socios publicitarios de AdMob (mediación)</h3>
           <p>Para mostrar anuncios, AdMob organiza una subasta en la que, además de Google, pueden pujar otras plataformas publicitarias. Cuando se pide un anuncio, AdMob puede compartir con ellas los datos de la tabla anterior (ID de publicidad, dirección IP y ubicación aproximada, datos del dispositivo e interacciones con anuncios) y tus elecciones de consentimiento. Actualmente trabajamos con:</p>
           <ul>
@@ -117,53 +123,57 @@
           </ul>
           <p>Estas plataformas pueden a su vez compartir los datos con sus propios compradores de publicidad: anunciantes, agencias, plataformas de compra de medios (DSP), redes y mercados publicitarios, y proveedores de medición, verificación y prevención del fraude. Con tu consentimiento, pueden usarlos para mostrarte anuncios según tus intereses deducidos de tu actividad en esta y otras apps y webs, usar identificadores distintos de las cookies (por ejemplo, combinaciones de datos técnicos del dispositivo) y asociar tu dispositivo con otros que se consideren tuyos. Si añadimos o quitamos socios publicitarios, actualizaremos esta lista.</p>
 
-          <h2 id="es-purposes">6. Finalidades y base legal</h2>
+          <h2 id="es-purchases">6. Compras</h2>
+          <p>Las compras de Premium (suscripción mensual o pago único) se gestionan por completo en Google Play. La app solo recibe la confirmación de qué producto has comprado y si sigue activo; no recibe tu nombre, tu email ni tus datos de pago. Google trata esos datos según su <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política de privacidad</a>.</p>
+
+          <h2 id="es-purposes">7. Finalidades y base legal</h2>
           <ul>
           <li><strong>Funcionamiento de la app</strong>: ejecución del servicio que solicitas al usarla (art. 6.1.b RGPD).</li>
           <li><strong>Cálculo de distancias con tu ubicación</strong>: tu permiso de ubicación del sistema, que puedes revocar en cualquier momento.</li>
+          <li><strong>Compras de Premium</strong>: ejecución del contrato de compra (art. 6.1.b RGPD).</li>
           <li><strong>Anuncios personalizados y acceso a identificadores del dispositivo</strong>: tu consentimiento (art. 6.1.a RGPD), que puedes retirar en cualquier momento.</li>
           <li><strong>Anuncios no personalizados, medición, seguridad y prevención del fraude</strong>: interés legítimo en financiar una app gratuita y protegerla frente a abusos (art. 6.1.f RGPD).</li>
           </ul>
 
-          <h2 id="es-permissions">7. Permisos de la app</h2>
+          <h2 id="es-permissions">8. Permisos de la app</h2>
           <div class="table-wrap">
           <table>
           <thead>
           <tr><th>Permiso</th><th>Para qué se usa</th></tr>
           </thead>
           <tbody>
-          <tr><td>Internet y estado de la red</td><td>Descargar los precios de los carburantes y cargar anuncios.</td></tr>
+          <tr><td>Internet y estado de la red</td><td>Descargar los precios de los carburantes, cargar anuncios y comprobar tus compras en Google Play.</td></tr>
           <tr><td>Ubicación aproximada y precisa</td><td>Calcular la distancia a las gasolineras en el dispositivo. Es opcional.</td></tr>
           <tr><td>ID de publicidad</td><td>Que AdMob pueda mostrar y medir anuncios conforme a tus ajustes.</td></tr>
           </tbody>
           </table>
           </div>
 
-          <h2 id="es-consent">8. Consentimiento y control de los anuncios</h2>
+          <h2 id="es-consent">9. Consentimiento y control de los anuncios</h2>
           <p>Si te encuentras en el Espacio Económico Europeo, Reino Unido, Suiza u otra región que lo exija, la app te mostrará un formulario de consentimiento la primera vez que la abras. Puedes cambiar tu decisión en cualquier momento en <strong>Ajustes → Opciones de privacidad de anuncios</strong>.</p>
           <p>Tu elección se aplica tanto a Google como a sus socios publicitarios. Si no das tu consentimiento, solo verás anuncios no personalizados.</p>
           <p>También puedes restablecer o eliminar tu ID de publicidad desde los ajustes de Android (<em>Ajustes → Privacidad → Anuncios</em>, según el dispositivo). Para más opciones de exclusión de la publicidad basada en intereses, visita <a href="https://www.youronlinechoices.com/" target="_blank" rel="noopener">Your Online Choices</a> y <a href="https://thenai.org/how-to-opt-out/" target="_blank" rel="noopener">Network Advertising Initiative</a>.</p>
 
-          <h2 id="es-retention">9. Conservación</h2>
+          <h2 id="es-retention">10. Conservación</h2>
           <p>Los datos guardados en tu dispositivo permanecen hasta que borras los datos de la app o la desinstalas. La lista de precios se sustituye cada vez que se descarga una nueva. Los datos tratados por Google y por los socios publicitarios se conservan según sus propias políticas.</p>
 
-          <h2 id="es-transfers">10. Transferencias internacionales</h2>
+          <h2 id="es-transfers">11. Transferencias internacionales</h2>
           <p>Google y los socios publicitarios pueden tratar datos fuera del Espacio Económico Europeo, por ejemplo en Estados Unidos o Canadá. Estas transferencias se amparan, según el caso, en el Marco de Privacidad de Datos UE-EE. UU., en las decisiones de adecuación de la Comisión Europea o en las cláusulas contractuales tipo aprobadas por ella.</p>
 
-          <h2 id="es-security">11. Seguridad</h2>
+          <h2 id="es-security">12. Seguridad</h2>
           <p>La app guarda tus datos en el almacenamiento privado de la aplicación, al que no pueden acceder otras apps. Las comunicaciones con los servicios externos se realizan cifradas mediante HTTPS.</p>
 
-          <h2 id="es-children">12. Menores</h2>
+          <h2 id="es-children">13. Menores</h2>
           <p>Gasolina Barata no está dirigida a menores de 13 años y no recogemos de forma consciente datos de menores. Si eres padre, madre o tutor y crees que un menor nos ha facilitado datos, escríbenos y los eliminaremos.</p>
 
-          <h2 id="es-rights">13. Tus derechos</h2>
+          <h2 id="es-rights">14. Tus derechos</h2>
           <p>Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad, así como retirar tu consentimiento, escribiendo a <a href="mailto:irongamez2001@gmail.com">irongamez2001@gmail.com</a>. Como Oeaon no almacena tus datos en sus servidores, la forma más rápida de eliminarlos es borrar los datos de la app o desinstalarla.</p>
           <p>Si consideras que no hemos atendido correctamente tu solicitud, puedes presentar una reclamación ante la <a href="https://www.aepd.es" target="_blank" rel="noopener">Agencia Española de Protección de Datos</a> o la autoridad de control de tu país.</p>
 
-          <h2 id="es-changes">14. Cambios en esta política</h2>
+          <h2 id="es-changes">15. Cambios en esta política</h2>
           <p>Podemos actualizar esta política para reflejar cambios en la app o en la normativa. Publicaremos la nueva versión en esta página con su fecha de actualización y, si los cambios son importantes, lo avisaremos dentro de la app.</p>
 
-          <h2 id="es-contact">15. Contacto</h2>
+          <h2 id="es-contact">16. Contacto</h2>
           <p>Oeaon · <a href="mailto:irongamez2001@gmail.com">irongamez2001@gmail.com</a></p>
         </article>
       </div>
@@ -189,6 +199,7 @@
             <li><a href="#en-location">Location</a></li>
             <li><a href="#en-prices">Fuel prices</a></li>
             <li><a href="#en-third">Third-party services</a></li>
+            <li><a href="#en-purchases">Purchases</a></li>
             <li><a href="#en-purposes">Purposes and legal basis</a></li>
             <li><a href="#en-permissions">App permissions</a></li>
             <li><a href="#en-consent">Consent and ads</a></li>
@@ -210,6 +221,7 @@
               <li>If you allow it, your location is used <strong>only on your phone</strong> to calculate distances: it is never sent to any server or stored.</li>
               <li>Prices are downloaded from the Ministry's public service without sending your location.</li>
               <li>The app shows ads from Google AdMob and from advertising partners that bid through AdMob. Personalized ads are only used if you give your consent.</li>
+              <li>Premium purchases are processed by Google Play: we never receive your payment details.</li>
               <li>We do not sell your personal data.</li>
             </ul>
           </section>
@@ -220,8 +232,10 @@
           <h2 id="en-local-data">2. Data stored on your device</h2>
           <p>To work, Gasolina Barata stores the following in your device's internal storage:</p>
           <ul>
-          <li>Your settings: fuel type, search radius, sort order and tank size.</li>
+          <li>Your settings: fuel type, search radius, sort order, tank size and trip calculator values.</li>
           <li>The last downloaded price list, so it can be used offline.</li>
+          <li>Whether you have Premium or the trip cost calculator unlocked for 24 hours.</li>
+          <li>When the last full-screen ad was shown, to limit how often ads appear.</li>
           </ul>
           <p>This data <strong>never leaves your device</strong> and Oeaon has no access to it. If Android backup is enabled, the system may include it in the encrypted backup of your Google account, under your control and subject to Google's privacy policy.</p>
 
@@ -242,10 +256,12 @@
           <tbody>
           <tr><td><strong>Google AdMob</strong></td><td>Android advertising ID, IP address (approximate location), device model and OS, language, ad interactions and diagnostic data.</td><td>Serve ads, measure performance, cap frequency and prevent fraud. Personalize ads only with your consent.</td></tr>
           <tr><td><strong>Google User Messaging Platform</strong></td><td>Your consent choices, stored on the device.</td><td>Request and remember your consent under the GDPR and other privacy laws.</td></tr>
+          <tr><td><strong>Google Play Billing</strong></td><td>Purchased product, purchase or subscription status and purchase token. Payment details are handled only by Google.</td><td>Process Premium purchases and check that they are still active.</td></tr>
           </tbody>
           </table>
           </div>
           <p>Learn more: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">how Google uses data from apps that use its services</a>.</p>
+          <p>The app shows banners, interstitial ads only at natural breaks, ads when you return to the app and rewarded ads that you choose to watch to unlock the trip cost calculator.</p>
           <h3>AdMob advertising partners (mediation)</h3>
           <p>To show ads, AdMob runs an auction in which other advertising platforms can bid alongside Google. When an ad is requested, AdMob may share the data in the table above (advertising ID, IP address and approximate location, device data and ad interactions) and your consent choices with them. We currently work with:</p>
           <ul>
@@ -255,53 +271,57 @@
           </ul>
           <p>These platforms may in turn share the data with their own advertising buyers: advertisers, agencies, demand-side platforms (DSPs), ad networks and exchanges, and measurement, verification and fraud-prevention providers. With your consent, they may use it to show you ads based on interests inferred from your activity in this and other apps and websites, use non-cookie identifiers (for example, combinations of technical device data) and link your device to other devices believed to belong to you. If we add or remove advertising partners, we will update this list.</p>
 
-          <h2 id="en-purposes">6. Purposes and legal basis</h2>
+          <h2 id="en-purchases">6. Purchases</h2>
+          <p>Premium purchases (monthly subscription or one-time payment) are handled entirely by Google Play. The app only receives confirmation of which product you bought and whether it is still active; it never receives your name, email or payment details. Google processes that data under its <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">privacy policy</a>.</p>
+
+          <h2 id="en-purposes">7. Purposes and legal basis</h2>
           <ul>
           <li><strong>Running the app</strong>: performance of the service you request by using it (Art. 6(1)(b) GDPR).</li>
           <li><strong>Distance calculation using your location</strong>: your system location permission, which you can revoke at any time.</li>
+          <li><strong>Premium purchases</strong>: performance of the purchase contract (Art. 6(1)(b) GDPR).</li>
           <li><strong>Personalized ads and access to device identifiers</strong>: your consent (Art. 6(1)(a) GDPR), which you can withdraw at any time.</li>
           <li><strong>Non-personalized ads, measurement, security and fraud prevention</strong>: legitimate interest in funding a free app and protecting it from abuse (Art. 6(1)(f) GDPR).</li>
           </ul>
 
-          <h2 id="en-permissions">7. App permissions</h2>
+          <h2 id="en-permissions">8. App permissions</h2>
           <div class="table-wrap">
           <table>
           <thead>
           <tr><th>Permission</th><th>Why it is used</th></tr>
           </thead>
           <tbody>
-          <tr><td>Internet and network state</td><td>Download fuel prices and load ads.</td></tr>
+          <tr><td>Internet and network state</td><td>Download fuel prices, load ads and check your Google Play purchases.</td></tr>
           <tr><td>Approximate and precise location</td><td>Calculate the distance to stations on the device. Optional.</td></tr>
           <tr><td>Advertising ID</td><td>Allow AdMob to serve and measure ads according to your settings.</td></tr>
           </tbody>
           </table>
           </div>
 
-          <h2 id="en-consent">8. Consent and ad controls</h2>
+          <h2 id="en-consent">9. Consent and ad controls</h2>
           <p>If you are in the European Economic Area, the United Kingdom, Switzerland or another region where it is required, the app will show a consent form the first time you open it. You can change your choice at any time under <strong>Settings → Ad privacy options</strong>.</p>
           <p>Your choice applies both to Google and to its advertising partners. If you do not consent, you will only see non-personalized ads.</p>
           <p>You can also reset or delete your advertising ID in Android settings (<em>Settings → Privacy → Ads</em>, depending on your device). For more ways to opt out of interest-based advertising, visit <a href="https://www.youronlinechoices.com/" target="_blank" rel="noopener">Your Online Choices</a> and the <a href="https://thenai.org/how-to-opt-out/" target="_blank" rel="noopener">Network Advertising Initiative</a>.</p>
 
-          <h2 id="en-retention">9. Retention</h2>
+          <h2 id="en-retention">10. Retention</h2>
           <p>Data stored on your device remains until you clear the app's data or uninstall it. The price list is replaced each time a new one is downloaded. Data processed by Google and by the advertising partners is retained according to their own policies.</p>
 
-          <h2 id="en-transfers">10. International transfers</h2>
+          <h2 id="en-transfers">11. International transfers</h2>
           <p>Google and the advertising partners may process data outside the European Economic Area, for example in the United States or Canada. Depending on the case, these transfers rely on the EU-U.S. Data Privacy Framework, the European Commission's adequacy decisions or the Standard Contractual Clauses it has approved.</p>
 
-          <h2 id="en-security">11. Security</h2>
+          <h2 id="en-security">12. Security</h2>
           <p>The app keeps your data in its private storage, which other apps cannot access. Communication with external services is encrypted over HTTPS.</p>
 
-          <h2 id="en-children">12. Children</h2>
+          <h2 id="en-children">13. Children</h2>
           <p>Gasolina Barata is not directed at children under 13 and we do not knowingly collect data from children. If you are a parent or guardian and believe a child has provided us with data, contact us and we will delete it.</p>
 
-          <h2 id="en-rights">13. Your rights</h2>
+          <h2 id="en-rights">14. Your rights</h2>
           <p>You can exercise your rights of access, rectification, erasure, objection, restriction of processing and data portability, and withdraw your consent, by writing to <a href="mailto:irongamez2001@gmail.com">irongamez2001@gmail.com</a>. Because Oeaon does not store your data on its servers, the fastest way to delete it is to clear the app's data or uninstall it.</p>
           <p>If you believe your request has not been handled properly, you can lodge a complaint with the <a href="https://www.aepd.es" target="_blank" rel="noopener">Spanish Data Protection Agency (AEPD)</a> or the supervisory authority in your country.</p>
 
-          <h2 id="en-changes">14. Changes to this policy</h2>
+          <h2 id="en-changes">15. Changes to this policy</h2>
           <p>We may update this policy to reflect changes in the app or in the law. The new version will be published on this page with its update date and, for significant changes, we will let you know inside the app.</p>
 
-          <h2 id="en-contact">15. Contact</h2>
+          <h2 id="en-contact">16. Contact</h2>
           <p>Oeaon · <a href="mailto:irongamez2001@gmail.com">irongamez2001@gmail.com</a></p>
         </article>
       </div>

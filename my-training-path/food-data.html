@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es" data-title-es="Datos de alimentos de My Training Path · Oeaon" data-title-en="My Training Path food data · Oeaon">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datos de alimentos de My Training Path · Oeaon</title>
+  <meta name="description" content="Copia de Open Food Facts incluida en My Training Path, publicada con licencia ODbL.">
+  <meta name="theme-color" content="#0b0b0c">
+  <meta property="og:title" content="Datos de alimentos de My Training Path · Oeaon">
+  <meta property="og:description" content="Copia de Open Food Facts incluida en My Training Path, publicada con licencia ODbL.">
+  <link rel="icon" type="image/png" href="/assets/oeaon-icon.png">
+  <link rel="apple-touch-icon" href="/assets/oeaon-logo-512.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">
+        <span class="brand-mark"><img src="/assets/oeaon-logo-96.png" alt="" width="36" height="36"></span>
+        <span class="brand-name">Oeaon</span>
+      </a>
+      <nav class="nav">
+        <a href="/my-training-path/">My Training Path</a>
+        <a href="/my-training-path/privacy.html" data-es="Privacidad" data-en="Privacy">Privacidad</a>
+        <a href="/my-training-path/terms.html" data-es="Términos" data-en="Terms">Términos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="doc container">
+    <div lang="es" data-lang="es">
+      <div class="doc-header">
+        <span class="eyebrow">Legal</span>
+        <h1>Datos de alimentos</h1>
+        <p>Base de datos derivada de Open Food Facts, con licencia ODbL.</p>
+        <div class="lang-switch" role="group" aria-label="Idioma / Language">
+          <button type="button" data-set-lang="es" aria-pressed="true">Español</button>
+          <button type="button" data-set-lang="en" aria-pressed="false">English</button>
+        </div>
+      </div>
+      <article>
+<p>My Training Path incluye una copia reducida de <a href="https://world.openfoodfacts.org" target="_blank" rel="noopener">Open Food Facts</a> para buscar alimentos sin conexión. Esa copia es una base de datos derivada y se publica aquí, a disposición de cualquiera, con la misma licencia.</p>
+<p><a class="button button-primary" href="data/off_es.tsv.gz" download>Descargar off_es.tsv.gz (5,7 MB)</a></p>
+<h2>Licencia y atribución</h2>
+<ul>
+<li>Fuente: © colaboradores de <a href="https://world.openfoodfacts.org" target="_blank" rel="noopener">Open Food Facts</a>.</li>
+<li>Base de datos: <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noopener">Open Database License (ODbL) 1.0</a>.</li>
+<li>Contenidos individuales: <a href="https://opendatacommons.org/licenses/dbcl/1-0/" target="_blank" rel="noopener">Database Contents License (DbCL) 1.0</a>.</li>
+</ul>
+<p>Si reutilizas estos datos debes citar la fuente y compartir las bases de datos derivadas con la misma licencia. Los datos los aporta una comunidad y pueden contener errores: se ofrecen sin ninguna garantía.</p>
+<h2>Qué contiene</h2>
+<p>222.341 productos, generados el 30/10/2026 a partir de la exportación pública de Open Food Facts. Es un archivo de texto comprimido con gzip, con una línea por producto y estas columnas separadas por tabuladores:</p>
+<p><code>código de barras, nombre, marca, kcal, proteína, grasa, hidratos</code> (valores por 100 g).</p>
+<h2>Cómo se ha obtenido</h2>
+<ul>
+<li>Solo productos vendidos en España (<code>countries_tags</code> contiene <code>en:spain</code>) con nombre y con proteína, grasa e hidratos.</li>
+<li>Se descartan códigos no válidos, nombres de más de 100 caracteres y productos cuyos macros suman más de 105 g por 100 g.</li>
+<li>Se quitan los duplicados, se conserva solo la primera marca y los macros se redondean a un decimal.</li>
+</ul>
+
+      </article>
+    </div>
+    <div lang="en" data-lang="en" hidden>
+      <div class="doc-header">
+        <span class="eyebrow">Legal</span>
+        <h1>Food data</h1>
+        <p>Database derived from Open Food Facts, under the ODbL licence.</p>
+        <div class="lang-switch" role="group" aria-label="Idioma / Language">
+          <button type="button" data-set-lang="es" aria-pressed="true">Español</button>
+          <button type="button" data-set-lang="en" aria-pressed="false">English</button>
+        </div>
+      </div>
+      <article>
+<p>My Training Path includes a reduced copy of <a href="https://world.openfoodfacts.org" target="_blank" rel="noopener">Open Food Facts</a> so foods can be searched offline. That copy is a derivative database, and it is published here for anyone to use, under the same licence.</p>
+<p><a class="button button-primary" href="data/off_es.tsv.gz" download>Download off_es.tsv.gz (5.7 MB)</a></p>
+<h2>Licence and attribution</h2>
+<ul>
+<li>Source: © <a href="https://world.openfoodfacts.org" target="_blank" rel="noopener">Open Food Facts</a> contributors.</li>
+<li>Database: <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noopener">Open Database License (ODbL) 1.0</a>.</li>
+<li>Individual contents: <a href="https://opendatacommons.org/licenses/dbcl/1-0/" target="_blank" rel="noopener">Database Contents License (DbCL) 1.0</a>.</li>
+</ul>
+<p>If you reuse this data you must credit the source and share derivative databases under the same licence. The data comes from a community and may contain errors: it is provided without any warranty.</p>
+<h2>What it contains</h2>
+<p>222,341 products, generated on 2026-10-30 from the public Open Food Facts export. It is a gzip-compressed text file with one product per line and these tab-separated columns:</p>
+<p><code>barcode, name, brand, kcal, protein, fat, carbs</code> (values per 100 g).</p>
+<h2>How it was produced</h2>
+<ul>
+<li>Only products sold in Spain (<code>countries_tags</code> contains <code>en:spain</code>) with a name and with protein, fat and carbs.</li>
+<li>Invalid codes, names over 100 characters and products whose macros add up to more than 105 g per 100 g are dropped.</li>
+<li>Duplicates are removed, only the first brand is kept and macros are rounded to one decimal.</li>
+</ul>
+
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>&copy; 2026 Oeaon</span>
+      <nav>
+        <a href="/" data-es="Inicio" data-en="Home">Inicio</a>
+        <a href="/my-training-path/">My Training Path</a>
+        <a href="/my-training-path/delete-account.html" data-es="Borrar tu cuenta" data-en="Delete your account">Borrar tu cuenta</a>
+        <a href="/my-training-path/food-data.html" data-es="Datos de alimentos" data-en="Food data">Datos de alimentos</a>
+        <a href="/legal.html" data-es="Todas las políticas" data-en="All policies">Todas las políticas</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="../assets/lang.js"></script>
+</body>
+</html>

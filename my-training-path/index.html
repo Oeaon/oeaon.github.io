@@ -3,111 +3,237 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Training Path · Oeaon</title>
-  <meta name="description" content="Entrena con un plan, controla tus macros y sube de rango con tus amigos.">
+  <title>My Training Path: de hormiga a elefante · Oeaon</title>
+  <meta name="description" content="App de gimnasio para Android: organiza tus entrenos, controla tus macros y sube de rango con cada kilo que levantas.">
   <meta name="theme-color" content="#0b0b0c">
-  <meta property="og:title" content="My Training Path · Oeaon">
-  <meta property="og:description" content="Entrena con un plan, controla tus macros y sube de rango con tus amigos.">
-  <link rel="icon" type="image/png" href="/assets/oeaon-icon.png">
-  <link rel="apple-touch-icon" href="/assets/oeaon-logo-512.png">
+  <meta property="og:title" content="My Training Path: de hormiga a elefante">
+  <meta property="og:description" content="Cada kilo que levantas te sube de rango. Entrenos, comidas y progreso en una sola app.">
+  <meta property="og:image" content="https://oeaon.github.io/assets/mtp/feature_graphic.png">
+  <link rel="icon" type="image/png" href="/assets/my-training-path.png">
+  <link rel="apple-touch-icon" href="/assets/my-training-path.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <a class="brand" href="/">
-        <span class="brand-mark"><img src="/assets/oeaon-logo-96.png" alt="" width="36" height="36"></span>
-        <span class="brand-name">Oeaon</span>
-      </a>
-      <nav class="nav">
-        <a href="/my-training-path/">My Training Path</a>
-        <a href="/my-training-path/privacy.html" data-es="Privacidad" data-en="Privacy">Privacidad</a>
-        <a href="/my-training-path/terms.html" data-es="Términos" data-en="Terms">Términos</a>
-      </nav>
-    </div>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="bar">
+    <a class="wordmark" href="/my-training-path/"><img src="/assets/my-training-path.png" alt="" width="30" height="30">My Training Path</a>
+    <nav aria-label="Principal">
+      <a href="#rango">Tu rango</a>
+      <a class="extra" href="#funciones">Funciones</a>
+      <a href="#precio">Precio</a>
+      <a class="extra" href="#preguntas">Preguntas</a>
+    </nav>
   </header>
 
-  <main>
-    <section class="hero container">
-      <img class="app-hero-icon" src="../assets/my-training-path.png" alt="Icono de My Training Path" width="128" height="128">
-      <h1>Entrena, come y <span>supérate</span></h1>
-      <p>Entrenamiento, nutrición y progreso en una sola app: organiza tus días, controla tus macros y sube de rango con tus amigos.</p>
-      <div class="actions actions-center">
-        <span class="button button-soon"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.2 2.4c-.3.3-.4.7-.4 1.2v16.8c0 .5.1.9.4 1.2l9.3-9.6-9.3-9.6Zm10.6 10.9 2.6 2.7-11 6.3c-.4.2-.8.3-1.1.2l9.5-9.2Zm0-2.6L5.3 1.5c.3-.1.7 0 1.1.2l11 6.3-2.6 2.7Zm3.9-1.7 3 1.7c.9.5.9 1.9 0 2.4l-3 1.7-2.8-2.9 2.8-2.9Z"/></svg> Próximamente en Google Play</span>
-        <a class="button button-ghost" href="privacy.html">Política de privacidad</a>
+  <main id="contenido">
+    <div class="hero">
+      <h1 class="sentence">
+        <span class="line">De hormiga
+          <span class="strip" aria-hidden="true"><span class="strip-track">
+            <img src="/assets/mtp/rank_01_ant.png" alt=""><img src="/assets/mtp/rank_02_beetle.png" alt=""><img src="/assets/mtp/rank_03_eagle.png" alt=""><img src="/assets/mtp/rank_04_snake.png" alt=""><img src="/assets/mtp/rank_05_crocodile.png" alt=""><img src="/assets/mtp/rank_06_tiger.png" alt=""><img src="/assets/mtp/rank_07_bull.png" alt=""><img src="/assets/mtp/rank_08_bear.png" alt=""><img src="/assets/mtp/rank_09_gorilla.png" alt=""><img src="/assets/mtp/rank_10_elephant.png" alt="">
+            <img src="/assets/mtp/rank_01_ant.png" alt=""><img src="/assets/mtp/rank_02_beetle.png" alt=""><img src="/assets/mtp/rank_03_eagle.png" alt=""><img src="/assets/mtp/rank_04_snake.png" alt=""><img src="/assets/mtp/rank_05_crocodile.png" alt=""><img src="/assets/mtp/rank_06_tiger.png" alt=""><img src="/assets/mtp/rank_07_bull.png" alt=""><img src="/assets/mtp/rank_08_bear.png" alt=""><img src="/assets/mtp/rank_09_gorilla.png" alt=""><img src="/assets/mtp/rank_10_elephant.png" alt="">
+          </span></span>
+        </span>
+        <span class="line">a elefante</span>
+      </h1>
+      <div class="hero-foot">
+        <p>My Training Path es una app de gimnasio para Android: organiza tus entrenos y tus comidas, y cada kilo que levantas te sube de rango.</p>
+        <div class="hero-actions">
+          <a class="button" href="#rango">Calcula tu rango</a>
+          <span class="soon">Próximamente en Google Play</span>
+        </div>
+      </div>
+    </div>
+
+    <section id="rango" aria-labelledby="rango-titulo">
+      <h2 id="rango-titulo" class="typed-question">¿Cuántos kilos has levantado en total?</h2>
+      <label class="typed" for="kg">
+        <span class="visually-hidden">Kilos levantados</span>
+        <input id="kg" data-ui type="text" inputmode="numeric" autocomplete="off" value="250.000" aria-describedby="rank-result">
+        <span class="unit" aria-hidden="true">kg</span>
+      </label>
+      <div class="rank-tool">
+        <div class="rank-answer" id="rank-result" aria-live="polite">
+          <img id="rank-medal" src="/assets/mtp/rank_04_snake.png" alt="Medalla de Anaconda" width="190" height="190">
+          <div>
+            <strong id="rank-name">Anaconda</strong>
+            <p id="rank-next">Te faltan 150.000 kg para Cocodrilo.</p>
+            <p id="rank-heavy">Has movido lo mismo que un Jumbo 747.</p>
+          </div>
+        </div>
+        <div class="rank-side">
+          <div>
+            <h3>Prueba con una media de 8.000 kg por entreno</h3>
+            <div class="choices">
+              <button class="choice" type="button" data-kg="8000">Un entreno</button>
+              <button class="choice" type="button" data-kg="96000">Tres meses</button>
+              <button class="choice" type="button" data-kg="1248000">Un año</button>
+            </div>
+            <p class="fine">Contando tres entrenos a la semana.</p>
+          </div>
+          <div>
+            <h3>Escala de rangos</h3>
+            <div class="choices">
+              <button class="choice" type="button" data-scale="1" aria-pressed="true">Hombres</button>
+              <button class="choice" type="button" data-scale="0.6" aria-pressed="false">Mujeres</button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="section container">
-      <h2 class="section-title">Funciones</h2>
-      <div class="features">
-        <div class="feature">
-          <h4>Organiza tus entrenos</h4>
-          <p>Crea tus días con más de 870 ejercicios con foto y paso a paso, o añade los tuyos, con series, repeticiones y descanso.</p>
+    <section class="ladder" aria-labelledby="escalera-titulo">
+      <h2 id="escalera-titulo" class="ladder-head" data-rise>Diez animales, una sola subida</h2>
+      <div class="ladder-stage" aria-hidden="true">
+        <div class="ladder-medal">
+          <img src="/assets/mtp/rank_01_ant.png" alt="" class="on" loading="lazy"><img src="/assets/mtp/rank_02_beetle.png" alt="" loading="lazy"><img src="/assets/mtp/rank_03_eagle.png" alt="" loading="lazy"><img src="/assets/mtp/rank_04_snake.png" alt="" loading="lazy"><img src="/assets/mtp/rank_05_crocodile.png" alt="" loading="lazy"><img src="/assets/mtp/rank_06_tiger.png" alt="" loading="lazy"><img src="/assets/mtp/rank_07_bull.png" alt="" loading="lazy"><img src="/assets/mtp/rank_08_bear.png" alt="" loading="lazy"><img src="/assets/mtp/rank_09_gorilla.png" alt="" loading="lazy"><img src="/assets/mtp/rank_10_elephant.png" alt="" loading="lazy">
         </div>
-        <div class="feature">
-          <h4>Modo entreno</h4>
-          <p>Sigue el entreno ejercicio a ejercicio, marca cada serie y usa el temporizador de descanso.</p>
+      </div>
+      <ol class="ladder-list">
+        <li><img src="/assets/mtp/rank_01_ant.png" alt="" loading="lazy"><div><b>Hormiga</b>Tu primera serie</div></li>
+        <li><img src="/assets/mtp/rank_02_beetle.png" alt="" loading="lazy"><div><b>Escarabajo</b>10.000 kg</div></li>
+        <li><img src="/assets/mtp/rank_03_eagle.png" alt="" loading="lazy"><div><b>Águila</b>50.000 kg</div></li>
+        <li><img src="/assets/mtp/rank_04_snake.png" alt="" loading="lazy"><div><b>Anaconda</b>150.000 kg</div></li>
+        <li><img src="/assets/mtp/rank_05_crocodile.png" alt="" loading="lazy"><div><b>Cocodrilo</b>400.000 kg</div></li>
+        <li><img src="/assets/mtp/rank_06_tiger.png" alt="" loading="lazy"><div><b>Tigre</b>1.000.000 kg</div></li>
+        <li><img src="/assets/mtp/rank_07_bull.png" alt="" loading="lazy"><div><b>Toro</b>2.000.000 kg</div></li>
+        <li><img src="/assets/mtp/rank_08_bear.png" alt="" loading="lazy"><div><b>Oso grizzly</b>4.000.000 kg</div></li>
+        <li><img src="/assets/mtp/rank_09_gorilla.png" alt="" loading="lazy"><div><b>Gorila</b>7.000.000 kg</div></li>
+        <li><img src="/assets/mtp/rank_10_elephant.png" alt="" loading="lazy"><div><b>Elefante</b>10.000.000 kg</div></li>
+      </ol>
+    </section>
+
+    <section id="funciones" aria-labelledby="funciones-titulo">
+      <div class="axis-head"><h2 id="funciones-titulo" data-rise>Todo lo que sube contigo</h2></div>
+      <div class="rows">
+        <article class="row">
+          <figure class="photo" data-rise><img src="/assets/mtp/Barbell_Squat.jpg" alt="Sentadilla con barra, del catálogo de ejercicios" loading="lazy"></figure>
+          <div class="copy" data-rise style="--i:1">
+            <h3>Entrena sin perder el hilo</h3>
+            <p>Monta tus días con 876 ejercicios con foto y paso a paso, o crea los tuyos. El modo entreno te lleva de uno en uno, recuerda tus pesos y avisa cuando acaba el descanso.</p>
+          </div>
+          <div data-ui data-rise style="--i:2">
+            <div class="ui-title">Press de banca <span>2.240 kg</span></div>
+            <table>
+              <thead><tr><th>Serie</th><th>Reps</th><th>Kg</th><th>Hecha</th></tr></thead>
+              <tbody>
+                <tr><td>1</td><td>10</td><td>60</td><td class="check">Sí</td></tr>
+                <tr><td>2</td><td>10</td><td>60</td><td class="check">Sí</td></tr>
+                <tr><td>3</td><td>8</td><td>65</td><td class="check">Sí</td></tr>
+                <tr><td>4</td><td>8</td><td>65</td><td class="check">Sí</td></tr>
+              </tbody>
+            </table>
+            <div class="note"><span>Descanso</span><b>1:30</b></div>
+          </div>
+        </article>
+        <article class="row">
+          <figure class="photo" data-rise><img src="/assets/mtp/Barbell_Bench_Press_-_Medium_Grip.jpg" alt="Press de banca con barra, del catálogo de ejercicios" loading="lazy"></figure>
+          <div class="copy" data-rise style="--i:1">
+            <h3>Come según tu objetivo</h3>
+            <p>Calcula tu IMC, tu gasto diario, tu agua y tus macros. Busca alimentos, también sin conexión, o escanea el código de barras. Con «Rellenar mis comidas», la app propone alimentos y gramos, incluso vegetarianos, veganos o sin lactosa.</p>
+          </div>
+          <div data-ui data-rise style="--i:2">
+            <div class="ui-title">Tu día en 4 comidas <span>2.550 kcal</span></div>
+            <table>
+              <thead><tr><th>Comida</th><th>Prot.</th><th>Grasa</th><th>Hidr.</th></tr></thead>
+              <tbody>
+                <tr><td>Desayuno</td><td>40 g</td><td>15 g</td><td>100 g</td></tr>
+                <tr><td>Comida</td><td>40 g</td><td>15 g</td><td>125 g</td></tr>
+                <tr><td>Merienda</td><td>30 g</td><td>5 g</td><td>75 g</td></tr>
+                <tr><td>Cena</td><td>40 g</td><td>15 g</td><td>75 g</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+        <article class="row">
+          <figure class="photo" data-rise><img src="/assets/mtp/Barbell_Deadlift.jpg" alt="Peso muerto con barra, del catálogo de ejercicios" loading="lazy"></figure>
+          <div class="copy" data-rise style="--i:1">
+            <h3>Mira cuánto has crecido</h3>
+            <p>Apunta kilos, repeticiones y RIR. La app detecta tus récords y, al acabar, te dice a qué equivale lo que has movido: de una lavadora a un cohete Falcon 9.</p>
+          </div>
+          <div data-ui data-rise style="--i:2">
+            <div class="ui-title">1RM estimado <span>82 kg</span></div>
+            <svg viewBox="0 0 320 130" role="img" aria-label="Gráfica: el 1RM estimado sube de 72 a 82 kilos en ocho sesiones">
+              <polyline fill="none" stroke="#ebc134" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" points="10,112 53,92 96,92 139,71 182,51 225,51 268,31 310,10"/>
+              <circle cx="310" cy="10" r="6" fill="#ebc134"/>
+            </svg>
+            <div class="note"><span>Nuevo récord</span><b>+2 kg</b></div>
+          </div>
+        </article>
+        <article class="row">
+          <figure class="photo" data-rise><img src="/assets/mtp/rank_09_gorilla.png" alt="Medalla del rango Gorila" loading="lazy" style="background:none;object-fit:contain"></figure>
+          <div class="copy" data-rise style="--i:1">
+            <h3>Pica a tus amigos</h3>
+            <p>Añádelos con un código y compara rangos, kilos y rachas semanales. Ves quién está entrenando ahora y te llega un aviso cuando alguien te envía una solicitud, aunque tengas la app cerrada.</p>
+          </div>
+          <div data-ui data-rise style="--i:2">
+            <div class="ui-title">Amigos</div>
+            <div class="friend"><img src="/assets/mtp/rank_06_tiger.png" alt="" width="44" height="44" loading="lazy"><div>Marta<small>Tigre · 6 semanas</small></div><span class="live">Entrenando ahora</span></div>
+            <div class="friend"><img src="/assets/mtp/rank_05_crocodile.png" alt="" width="44" height="44" loading="lazy"><div>Dani<small>Cocodrilo · 3 semanas</small></div></div>
+            <div class="friend"><img src="/assets/mtp/rank_04_snake.png" alt="" width="44" height="44" loading="lazy"><div>Tú<small>Anaconda · 4 semanas</small></div></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="stats" aria-labelledby="cifras-titulo">
+      <h2 id="cifras-titulo" class="visually-hidden">La app en cifras</h2>
+      <p data-rise>Ser elefante son <b>10.000.000&nbsp;kg</b>. A <b>8.000&nbsp;kg</b> por entreno, <b>1.250&nbsp;entrenos</b>: unos <b>8&nbsp;años</b> a tres por semana.</p>
+      <img src="/assets/mtp/rank_10_elephant.png" alt="Medalla del rango Elefante" width="320" height="320" loading="lazy" data-rise style="--i:1">
+    </section>
+
+    <section class="price" id="precio" aria-labelledby="precio-titulo">
+      <h2 id="precio-titulo" data-rise>Gratis. Premium por <span class="tag">3&nbsp;€</span> al mes</h2>
+      <div class="price-foot">
+        <div class="price-copy" data-rise>
+          <p>La app es gratis con anuncios. Premium rellena tus comidas según tus macros, genera tus próximos 7 días, incluye las estadísticas avanzadas y quita los anuncios.</p>
+          <p class="fine">Precio con impuestos en países con euro; en el resto, el que indique Google Play. Renovación automática; cancela cuando quieras desde la tienda. Consulta los <a href="terms.html">términos</a>.</p>
         </div>
-        <div class="feature">
-          <h4>Nutrición a tu medida</h4>
-          <p>Calcula tu IMC, metabolismo, gasto diario, agua y macros según tu objetivo.</p>
-        </div>
-        <div class="feature">
-          <h4>Diario de comidas</h4>
-          <p>Busca alimentos, incluso sin conexión, escanea el código de barras y reparte tus macros en 4 comidas.</p>
-        </div>
-        <div class="feature">
-          <h4>Progreso y récords</h4>
-          <p>Registra kilos, repeticiones y RIR, con gráficas de peso, 1RM estimado y volumen.</p>
-        </div>
-        <div class="feature">
-          <h4>Rangos y amigos</h4>
-          <p>Sube de rango con cada kilo levantado, compara rangos y rachas, y mira quién está entrenando.</p>
+        <div class="buy" data-rise style="--i:1">
+          <span class="soon">Próximamente en Google Play</span>
+          <p><b>7 días gratis</b> en el plan mensual si es tu primera vez.</p>
+          <p><b>O 20 € al año</b>: ahorras un 44 %.</p>
         </div>
       </div>
     </section>
 
-    <section class="section container">
-      <h2 class="section-title">Preguntas frecuentes</h2>
-      <div class="faq">
-        <details>
-          <summary>¿Necesito una cuenta?</summary>
-          <p>Sí: tus entrenos, comidas y progreso se guardan en tu cuenta para que no los pierdas. Puedes entrar con correo o con Google.</p>
-        </details>
-        <details>
-          <summary>¿Cómo borro mi cuenta?</summary>
-          <p>Desde <em>Ajustes</em> en la app, o siguiendo <a href="delete-account.html">estas instrucciones</a>.</p>
-        </details>
-        <details>
-          <summary>¿Qué incluye la suscripción?</summary>
-          <p>Quita los anuncios, incluye las estadísticas avanzadas y rellena tus comidas automáticamente según tus macros.</p>
-        </details>
-        <details>
-          <summary>¿De dónde salen los datos de los alimentos?</summary>
-          <p>De <a href="https://world.openfoodfacts.org" target="_blank" rel="noopener">Open Food Facts</a>, con licencia ODbL. Puedes <a href="food-data.html">descargar la copia que incluye la app</a>.</p>
-        </details>
+    <section class="faq" id="preguntas" aria-labelledby="preguntas-titulo">
+      <h2 id="preguntas-titulo" data-rise>Lo que te estarás preguntando</h2>
+      <div class="faq-list">
+        <details><summary>¿Necesito una cuenta?</summary><p>Sí: tus entrenos, comidas y progreso se guardan en tu cuenta para que no los pierdas. Puedes entrar con correo o con Google.</p></details>
+        <details><summary>¿Funciona sin conexión?</summary><p>Sí. Lo que apuntas se guarda en el móvil y se sincroniza al volver a tener conexión. Los ejercicios y gran parte de los alimentos vienen dentro de la app.</p></details>
+        <details><summary>¿Hay opciones vegetarianas y veganas?</summary><p>Sí. En «Rellenar mis comidas» abre «Mis preferencias» para elegir vegetariano, vegano o sin lactosa, y descartar los alimentos que no quieras. También en la prueba gratis.</p></details>
+        <details><summary>¿Qué incluye Premium?</summary><p>Rellena tus comidas automáticamente según tus macros, genera los próximos 7 días, incluye las estadísticas avanzadas y quita los anuncios.</p></details>
+        <details><summary>¿Cómo borro mi cuenta?</summary><p>Desde <em>Ajustes</em> en la app, o siguiendo <a href="delete-account.html">estas instrucciones</a>.</p></details>
+        <details><summary>¿De dónde salen los datos de los alimentos?</summary><p>De <a href="https://world.openfoodfacts.org" target="_blank" rel="noopener">Open Food Facts</a>, con licencia ODbL. Puedes <a href="food-data.html">descargar la copia que incluye la app</a>.</p></details>
       </div>
-      <p class="support-note">¿Otra duda o sugerencia? Escribe a <a href="mailto:irongamez2001@gmail.com?subject=My%20Training%20Path">irongamez2001@gmail.com</a>.</p>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <span>&copy; 2026 Oeaon</span>
-      <nav>
-        <a href="/" data-es="Inicio" data-en="Home">Inicio</a>
-        <a href="/my-training-path/">My Training Path</a>
-        <a href="/my-training-path/delete-account.html" data-es="Borrar tu cuenta" data-en="Delete your account">Borrar tu cuenta</a>
-        <a href="/my-training-path/food-data.html" data-es="Datos de alimentos" data-en="Food data">Datos de alimentos</a>
-        <a href="/legal.html" data-es="Todas las políticas" data-en="All policies">Todas las políticas</a>
+  <footer class="close">
+    <div class="close-notes">
+      <p>My Training Path es una app de Oeaon. La hace una sola persona en España, y lee lo que le escribes.</p>
+      <a href="#contenido">Volver arriba</a>
+    </div>
+    <div>
+      <h2>¿Una duda o una idea? Escribe a</h2>
+      <a class="contact" href="mailto:irongamez2001@gmail.com?subject=My%20Training%20Path"><span>irongamez2001</span><span>@gmail.com</span></a>
+    </div>
+    <div class="close-meta">
+      <nav aria-label="Legal">
+        <a href="privacy.html">Privacidad</a>
+        <a href="terms.html">Términos</a>
+        <a href="delete-account.html">Borrar tu cuenta</a>
+        <a href="food-data.html">Datos de alimentos</a>
+        <a href="/">Otras apps de Oeaon</a>
       </nav>
+      <span>Fotos de ejercicios: <a href="https://github.com/yuhonas/free-exercise-db" target="_blank" rel="noopener">free-exercise-db</a>, dominio público</span>
+      <span>&copy; 2026 Oeaon</span>
     </div>
   </footer>
-
-  <script src="../assets/lang.js"></script>
+  <script src="/assets/site.js"></script>
 </body>
 </html>

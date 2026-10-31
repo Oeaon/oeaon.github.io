@@ -35,7 +35,7 @@
       <div class="doc-header">
         <span class="eyebrow">Legal</span>
         <h1>Política de privacidad</h1>
-        <p>Última actualización: 30/10/2026</p>
+        <p>Última actualización: 01/11/2026</p>
         <div class="lang-switch" role="group" aria-label="Idioma / Language">
           <button type="button" data-set-lang="es" aria-pressed="true">Español</button>
           <button type="button" data-set-lang="en" aria-pressed="false">English</button>
@@ -57,9 +57,10 @@
 <li><strong>Amigos (opcional):</strong> apodo, código de amigo, nivel de rango, kilos totales, racha de semanas entrenando y una miniatura de tu foto. <strong>Solo los ven las personas que aceptes como amigos.</strong> Nunca se comparte tu sexo ni tus datos de salud.</li>
 <li><strong>Aceptación de los términos:</strong> versión de los términos y la política de privacidad que aceptaste y la fecha, como constancia.</li>
 <li><strong>Uso de la función de rellenar comidas:</strong> registramos si has usado esta función y la fecha del primer uso, asociado a tu cuenta, para saber qué funciones son útiles. No se comparte con terceros ni se usa para publicidad, y se borra con la cuenta.</li>
+<li><strong>Avisos de amistad:</strong> un identificador de notificaciones de este dispositivo (token de Firebase Cloud Messaging) y el idioma de la app, para avisarte de solicitudes de amistad aunque tengas la app cerrada. Se borra al cerrar sesión o eliminar la cuenta.</li>
 <li><strong>Datos técnicos:</strong> informes de fallos (modelo de dispositivo, versión del sistema y de la app, traza del error) y, si ves anuncios, los datos que usa Google AdMob (ver apartado 4).</li>
 </ul>
-<p>Los recordatorios y el temporizador de descanso son notificaciones <strong>locales</strong>: se programan en tu dispositivo y no se envían a ningún servidor.</p>
+<p>Los recordatorios y el temporizador de descanso son notificaciones <strong>locales</strong>: se programan en tu dispositivo y no se envían a ningún servidor. Los avisos de solicitudes de amistad, con el apodo de quien la envía, pasan por Cloudflare y Firebase Cloud Messaging.</p>
 
 <h2>3. Para qué y con qué base legal</h2>
 <ul>
@@ -72,7 +73,8 @@
 
 <h2>4. Con quién se comparten</h2>
 <ul>
-<li><strong>Google Firebase</strong> (Authentication, Cloud Firestore, Crashlytics): alojamiento de la cuenta y los datos, e informes de fallos. Google actúa como encargado del tratamiento.</li>
+<li><strong>Google Firebase</strong> (Authentication, Cloud Firestore, Cloud Messaging, Crashlytics): alojamiento de la cuenta y los datos, e informes de fallos. Google actúa como encargado del tratamiento.</li>
+<li><strong>Cloudflare</strong> (Workers): envía los avisos de solicitudes de amistad. Trata el identificador de usuario de quien la envía y de quien la recibe, el apodo y el identificador de notificaciones, sin guardarlos. Actúa como encargado del tratamiento.</li>
 <li><strong>Google AdMob</strong>: muestra anuncios en la versión gratuita. Puede usar el identificador de publicidad del dispositivo y datos de uso, según tu consentimiento. En el Espacio Económico Europeo se pide consentimiento antes de mostrar anuncios. No se envían datos de salud ni de entrenamiento a los anuncios.</li>
 <li><strong>Google Play / Apple App Store</strong>: gestionan la suscripción «Premium». No recibimos tus datos de pago.</li>
 <li><strong>DeepL</strong>: traduce las instrucciones de los ejercicios. Solo se envía el texto del ejercicio, nunca datos tuyos.</li>
@@ -101,7 +103,7 @@
       <div class="doc-header">
         <span class="eyebrow">Legal</span>
         <h1>Privacy policy</h1>
-        <p>Last updated: 30/10/2026</p>
+        <p>Last updated: 01/11/2026</p>
         <div class="lang-switch" role="group" aria-label="Idioma / Language">
           <button type="button" data-set-lang="es" aria-pressed="true">Español</button>
           <button type="button" data-set-lang="en" aria-pressed="false">English</button>
@@ -123,9 +125,10 @@
 <li><strong>Friends (optional):</strong> nickname, friend code, rank level, total kilos, weekly training streak and a thumbnail of your photo. <strong>Only people you accept as friends can see them.</strong> Your sex and health data are never shared.</li>
 <li><strong>Acceptance of the terms:</strong> the version of the terms and privacy policy you accepted and the date, as a record.</li>
 <li><strong>Use of the meal auto-fill feature:</strong> we record whether you have used this feature and the date of first use, linked to your account, to learn which features are useful. It is not shared with third parties or used for advertising, and it is deleted with your account.</li>
+<li><strong>Friend request alerts:</strong> a notification identifier for this device (Firebase Cloud Messaging token) and the app language, to alert you to friend requests even when the app is closed. It is deleted when you sign out or delete your account.</li>
 <li><strong>Technical data:</strong> crash reports (device model, OS and app version, error trace) and, if you see ads, the data Google AdMob uses (see section 4).</li>
 </ul>
-<p>Reminders and the rest timer are <strong>local</strong> notifications: they are scheduled on your device and never sent to any server.</p>
+<p>Reminders and the rest timer are <strong>local</strong> notifications: they are scheduled on your device and never sent to any server. Friend request alerts, with the sender's nickname, go through Cloudflare and Firebase Cloud Messaging.</p>
 
 <h2>3. Purposes and legal basis</h2>
 <ul>
@@ -138,7 +141,8 @@
 
 <h2>4. Who we share it with</h2>
 <ul>
-<li><strong>Google Firebase</strong> (Authentication, Cloud Firestore, Crashlytics): hosting of your account and data, and crash reports. Google acts as a processor.</li>
+<li><strong>Google Firebase</strong> (Authentication, Cloud Firestore, Cloud Messaging, Crashlytics): hosting of your account and data, and crash reports. Google acts as a processor.</li>
+<li><strong>Cloudflare</strong> (Workers): sends friend request alerts. It processes the user identifiers of the sender and the recipient, the nickname and the notification identifier, without storing them. It acts as a processor.</li>
 <li><strong>Google AdMob</strong>: shows ads in the free version. It may use the device advertising ID and usage data, according to your consent. In the European Economic Area consent is requested before any ad is shown. No health or training data is sent to ads.</li>
 <li><strong>Google Play / Apple App Store</strong>: handle the "Premium" subscription. We never receive your payment details.</li>
 <li><strong>DeepL</strong>: translates exercise instructions. Only the exercise text is sent, never your data.</li>
